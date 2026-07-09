@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdio.h>
 
 void	handle_str(va_list args, size_t *char_count)
 {
@@ -89,9 +88,9 @@ int	ft_printf(char const *input, ...)
 	char	*arg;
 	size_t	i;
 	size_t	char_count;
-	char	*known_args;
 
-	known_args = "cspdiuxX%";
+	if (!input)
+		return (-1);
 	va_start(args, input);
 	i = 0;
 	char_count = 0;
