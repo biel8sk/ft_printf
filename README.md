@@ -24,7 +24,7 @@ The implementation was written with readability and modularity in mind, separati
 
 ---
 
-# Usage
+# Instructions
 
 ## Clone the repository
 
@@ -75,7 +75,7 @@ int main(void)
 
 ---
 
-# Resources Used
+# Resources
 
 This project was developed primarily through experimentation, documentation, and extensive comparison with the behavior of the original `printf`.
 
