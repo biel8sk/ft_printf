@@ -16,8 +16,8 @@ void	ft_putunbr_fd(unsigned int nb, int fd)
 {
 	if (nb > 9)
 	{
-		ft_putnbr_fd(nb / 10, fd);
-		ft_putnbr_fd(nb % 10, fd);
+		ft_putunbr_fd(nb / 10, fd);
+		ft_putunbr_fd(nb % 10, fd);
 	}
 	else
 	{
